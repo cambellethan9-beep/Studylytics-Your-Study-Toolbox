@@ -2,7 +2,7 @@
 
 Studylytics is a retro-styled desktop toolbox that tracks your study time, schedules spaced-repetition reviews, and turns your practice-test mistakes into daily flashcards. Everything runs locally with nothing to install beyond Python.
 
-<!-- Add a screenshot of the home screen here, e.g. ![Studylytics home screen](screenshot.png) -->
+<!-- Add a screenshot of the home screen here, e.g. ![Studylytics home screen](studylytics_icon.png) -->
 
 ## Quick start
 
