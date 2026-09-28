@@ -1,13 +1,12 @@
 # Studylytics
 
-Studylytics is a retro-styled desktop toolbox that tracks your study time, ...
+Studylytics is a retro-styled desktop toolbox that tracks your study time, schedules spaced-repetition reviews, and turns your practice-test mistakes into daily flashcards. Everything runs locally with nothing to install beyond Python.
 
 <p align="center">
   <img src="studylytics_icon.png" alt="Studylytics icon" width="96">
 </p>
 
 ## Quick start
-
 **Requirements:** Python 3 with `tkinter` (no other packages needed).
 
 If tkinter is missing on Debian/Ubuntu:
