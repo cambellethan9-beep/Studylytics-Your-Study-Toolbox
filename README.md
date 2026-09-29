@@ -2,17 +2,30 @@
 
 Studylytics is a retro-styled desktop toolbox that tracks your study time, schedules spaced-repetition reviews, and turns your practice-test mistakes into daily flashcards. Everything runs locally with nothing to install beyond Python.
 
-<p align="center">
-  <img src="studylytics_icon.png" alt="Studylytics icon" width="96">
-</p>
+<!-- Add a screenshot of the home screen here, e.g. ![Studylytics home screen](screenshot.png) -->
 
 ## Quick start
-**Requirements:** Python 3 with `tkinter` (no other packages needed).
+
+**Requirements:** Python 3 with `tkinter`. That's all the core app needs.
+
+**Optional:** Pillow, only needed for two things in Notes (inserting images and the draw tool). Everything else works fine without it.
 
 If tkinter is missing on Debian/Ubuntu:
 
 ```
 sudo apt-get install python3-tk
+```
+
+**Installing Pillow (optional):** on Debian/Ubuntu, install it through your system's package manager rather than `pip` - newer versions block `pip` from touching system Python to avoid breaking OS tools (you'll see an "externally-managed-environment" error if you try `pip install` directly):
+
+```
+sudo apt install python3-pil python3-pil.imagetk
+```
+
+Both packages are needed - the second one is what lets Pillow images display inside tkinter, which Studylytics relies on. Confirm it worked with:
+
+```
+python3 -c "from PIL import Image, ImageTk; print('ok')"
 ```
 
 **Run it:**
